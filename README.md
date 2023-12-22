@@ -14,29 +14,12 @@ Spring-Boot-Postgres SQL
 Spring-Boot-Web
 
 <h1>API Operations</h1>
-<li>GET url/load</li>
-![image](https://github.com/com-Abhijeet/Shipment-Tracking-API/assets/96511266/74af42dc-8832-45ab-a7b1-709d87877ed0)
-
-<li>Get url/load/{loadId}</li>
-![image](https://github.com/com-Abhijeet/Shipment-Tracking-API/assets/96511266/23e54136-8e81-4cb9-8c55-4a68890d3673)
-
-Post url/load
-body
-{
-  "loadId":1015,
-	"loadingPoint": "Delhi",
-	"unloadingPoint": "Mumbai",
-	"productType": "Food",
-	"truckType": "Lorry",
-	"noOfTrucks": "4",
-	"weight": "562",
-  "optional":"comment: Payment pending",
-	"shipperId" :1075,
-	"date" : "24-07-2023"
-}
-![image](https://github.com/com-Abhijeet/Shipment-Tracking-API/assets/96511266/cd7ba1cc-aecc-4c14-a9c3-30e3bc53d76c)
-
-
-
+<ul>
+	<li>GET /load - Gets all the loads in database</li>
+	<li>GET /load/{loadId} - Gets The load for loadId in database</li>
+	<li>POST /load - Posts the loads in database</li>
+	<li>PUT /load - Updates the loads in database</li>
+	<li>DELETE /load/{loadId} - Deletes the load from the database</li>
+</ul>
 
 
